@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Perl where hash iteration order is not guaranteed. The foreach loop iterates over the keys of the hash, but the order of iteration is not defined and may vary between Perl implementations or even different runs of the same program.  This can lead to unexpected results if the code relies on a specific iteration order.
